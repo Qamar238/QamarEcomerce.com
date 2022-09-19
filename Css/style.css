@@ -1,0 +1,220 @@
+/* This tags use to universal selctor on css this tags mostly use reset anything */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #edd5d5;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+/* Navbar logo */
+#logo{
+    margin: 5px 21px;
+}
+
+/* Navbar img */
+#logo img{
+    margin: 10px 22px;
+    height: 125px;
+}
+/* navbar list */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+/* a tags set */
+#navbar ul li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* pseudo selector */
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+#navbar ul li a:hover{
+    color: brown;
+    background-color: rgb(255, 241, 241);
+
+}
+/* ☝️ Navbar end */
+
+/* Home Section */
+#Homes{
+    display: flex;
+    flex-direction: column;
+    height: 345px;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#Homes::before{
+    content: "";
+    background: url(https://wallpaperaccess.com/full/2677231.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 514px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -1;
+    opacity: 100;
+}
+/* services section  */
+#servicesbox{
+    display: flex;
+    margin: 20px;
+}
+#services #box{
+    background-color: #ffabc6;
+    border: 2px solid #cd7c7c;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+#services #box img{
+    display: block;
+    height: 200px;
+    margin: auto;
+}
+.servicep{
+    text-align: center;
+}
+/* Partner section */
+#Deliverypartner{
+    height: 300px;
+}
+#partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#partner img{
+    height: 66px;
+}
+.img{
+    padding: 60px;
+}
+#Deliverypartner::before{
+    content: "";
+    position: absolute;
+    background: url(https://i.pinimg.com/originals/4e/4e/26/4e4e26cae6106d9c7dd6333083599553.png) no-repeat center center/cover;
+    height: 301px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* 👇 Enquiry Form  */
+#enquiry{
+    position: relative;
+}
+#enquiry::before{
+    content: "";
+    position: absolute;
+    /* background: url(https://wpforms.com/wp-content/uploads/2017/07/beautiful-contact-form-designs-you-can-steal.jpg) no-repeat ; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2.5;
+}
+#formup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+#formup form{
+    width: 42%;
+}
+
+#formup input,
+#formup textarea{
+    width: 100%;
+    padding: 2%;
+    font-family: fantasy;
+    font-size: large;
+}
+#formup label{
+    font-family: cursive;
+}
+/* form section end here */
+
+/* 👇Footer section start here  */
+footer{
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* Utility class*/
+#headh{
+    font-family: sans-serif;
+    color: darkred;
+    text-align: center;
+    font-size: 4rem;
+    padding: 10px;
+}
+#Homes p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+.btn{
+    padding: 5px 12px;
+    background-color: #db8888;
+    border: 2px solid #9d4f4f;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn a:hover{
+    color: rgb(224, 6, 6);
+}
+#H2{
+    text-align: center;
+    color: darkred;
+    font-size: 3rem;
+    font-family: sans-serif;
+    padding: 7px;
+}
+.H{
+    text-align: center;
+}
+.serviceP{
+    font-size: 21px;
+    font-family: cursive;
+}
